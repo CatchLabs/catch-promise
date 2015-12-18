@@ -375,7 +375,7 @@ _.extend(Promise.prototype, /** @lends AV.Promise.prototype */ {
    * @param {Function} resolvedCallback Function that is called when this
    * Promise is resolved. Once the callback is complete, then the Promise
    * returned by "then" will also be fulfilled.
-   * @param {Function} rejectedCallback Function that is called when this
+   * @param {Function} [rejectedCallback] Function that is called when this
    * Promise is rejected with an error. Once the callback is complete, then
    * the promise returned by "then" with be resolved successfully. If
    * rejectedCallback is null, or it returns a rejected Promise, then the
